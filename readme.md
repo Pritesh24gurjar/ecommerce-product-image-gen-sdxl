@@ -44,15 +44,21 @@ We fine-tuned the [Stable Diffusion XL Base 1.0](https://huggingface.co/stabilit
 We used the [KREAM Product BLIP Captions Dataset](https://huggingface.co/datasets/hahminlew/kream-product-blip-captions) — a curated collection of branded product images annotated using BLIP captioning. It contains clothing items from popular brands with detailed natural language captions to describe the fashion context and visual attributes.
 
 * Captions auto-generated via BLIP (Bootstrapped Language-Image Pretraining)
-* Structure:
 
-  ```json
-  {
-    "fileName": "nike_01.jpg",
-    "LogoName": "Nike",
-    "caption": "A person wearing a Nike tracksuit in daylight"
-  }
-  ```
+### 📁 Dataset Structure
+
+Each entry in the dataset includes:
+
+- `image`: Product image (JPG/PNG)
+- `caption`: A descriptive BLIP-generated caption for the image
+
+**Example JSON entry:**
+
+```json
+{
+  "image": "<image_binary>",
+  "caption": "A white oversized Nike hoodie with front logo print."
+}
 * Preprocessing:
 
   * Images resized to 512×512 and 1024×1024
