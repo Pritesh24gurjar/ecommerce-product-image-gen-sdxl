@@ -180,6 +180,50 @@ datasets
 
 ---
 
+## 🎯 Fine-Tuned Weights
+
+We provide **LoRA fine-tuned weights** for SDXL trained on the KREAM BLIP dataset.
+
+- **Download Link**: [Fine-Tuned Weights on Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
+- **Base Model**: [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
+- **Format**: LoRA `.safetensors` or `.bin` (compatible with `Diffusers` library)
+
+### 🔧 Loading Weights:
+
+```python
+from diffusers import StableDiffusionXLPipeline
+import torch
+
+pipe = StableDiffusionXLPipeline.from_pretrained(
+    "stabilityai/stable-diffusion-xl-base-1.0",
+    torch_dtype=torch.float16
+).to("cuda")
+
+pipe.load_lora_weights("path_to_downloaded_weights")
+```
+
+---
+
+## 🚀 Streamlit Demo App
+
+This repo includes a Streamlit-based demo app: [`sdxl_app.py`](./sdxl_app.py)
+
+### ✅ Features:
+
+- Input text prompts to generate branded e-commerce images
+- Uses fine-tuned SDXL weights
+- Easy to run locally
+
+### ▶️ Run the App:
+
+```bash
+pip install -r requirements.txt
+streamlit run sdxl_app.py
+```
+
+---
+
+
 ## 🧩 Sample Results
 
 Below are several example prompts we used to evaluate SDXL and compare it with Imagin and DALL·E:
