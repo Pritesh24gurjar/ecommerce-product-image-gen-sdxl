@@ -9,9 +9,9 @@ This project presents a scalable, AI-driven approach to generate branded clothin
 
 Watch the demo of the project below:
 
-[Watch Demo Video](Demo_video/SDXL%20Fine%20tuning%20project%20demo.mp4)
+[Watch Demo Video](https://drive.google.com/file/d/1pxIg-DkEUoxMG590SZ7OkbAhLD-mDLV1/view?usp=sharing)
 
-## 🌟 Objective
+## 🌟 Objectiveupdated video 
 
 Manual product photography is expensive and time-consuming. We fine-tuned pre-trained diffusion models (SD 1.4 and SDXL) to **automate generation of ultra-HD, semantically accurate branded images**. Our approach enables scalable creation of lifestyle and catalog images from just text prompts.
 
