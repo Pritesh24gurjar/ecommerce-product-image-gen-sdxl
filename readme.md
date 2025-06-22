@@ -59,6 +59,8 @@ Each entry in the dataset includes:
   "image": "<image_binary>",
   "caption": "A white oversized Nike hoodie with front logo print."
 }
+```
+
 * Preprocessing:
 
   * Images resized to 512×512 and 1024×1024
