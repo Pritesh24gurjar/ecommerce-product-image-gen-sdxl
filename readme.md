@@ -186,7 +186,7 @@ Below are several example prompts we used to evaluate SDXL and compare it with I
 
 📸 A visual comparison of generations from **SDXL (LoRA-finetuned)** vs **Imagin** and **DALL·E** will be shown below:
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](images/model_comp.png)
 
 ---
 
