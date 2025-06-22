@@ -1,0 +1,10 @@
+Here’s a **prompt** and **negative prompt** combination to guide your generation:
+
+### **Prompt:**
+
+A fashion-forward portrait of a model in a black Nike jacket, dramatic lighting, minimalist backdrop, logo highlighted, sharp details, high-quality 4k photo, modern and stylish appearance, well-defined face, confident expression, with a clean, polished look.
+
+### **Negative Prompt:**
+
+Avoid poorly rendered or distorted logos, blurry or incomplete logos, unnatural logo placements, unrecognizable or misshapen logos, off-center logos, non-branded logos, logos with mismatched colors or shapes, unrealistic Nike logos, logos not in line with Nike's design standards. Avoid distorted or exaggerated facial features, unrealistic skin textures, poor lighting on the face, blurry or pixelated faces, faces with strange expressions, poorly aligned facial features, or faces with unprofessional styling. Exclude facial artifacts such as asymmetry, low resolution, or unrecognizable features.
+
