@@ -184,7 +184,7 @@ datasets
 
 We provide **LoRA fine-tuned weights** for SDXL trained on the KREAM BLIP dataset.
 
-- **Download Link**: [Fine-Tuned Weights on Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
+- **Download Link**: [Fine-Tuned Weights on Google Drive](https://drive.google.com/drive/folders/1s7R5QxHBw-BbCLFqzJWA8Mv7hAP5Ztx_?usp=sharing)
 - **Base Model**: [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 - **Format**: LoRA `.safetensors` or `.bin` (compatible with `Diffusers` library)
 
@@ -262,7 +262,7 @@ Below are several example prompts we used to evaluate SDXL and compare it with I
 
 If you use or reference this project, please cite:
 
-> Pritesh Gurjar, Annadurai, Amursetti, *E-Commerce Product Image Generation Using Stable Diffusion XL*, 2025.
+> Gurjar, Annadurai, Amursetti, *E-Commerce Product Image Generation Using Stable Diffusion XL*, 2025.
 
 ---
 
